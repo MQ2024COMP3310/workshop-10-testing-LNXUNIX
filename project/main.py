@@ -3,7 +3,7 @@ from flask_login import login_required, current_user
 from . import db
 
 main = Blueprint('main', __name__)
-#conflicts
+#conflicts unique
 
 @main.route('/')
 def index():
