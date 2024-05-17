@@ -14,3 +14,4 @@ def index():
 def profile():
     return render_template('profile.html', name=current_user.name)
 # Comment
+#test \test
